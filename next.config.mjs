@@ -1,4 +1,15 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'ild.co.id',
+        port: '',
+        pathname: '/samta/wp-content/uploads/**',
+      },
+    ],
+  },
+}
 
 export default nextConfig;

@@ -1,4 +1,4 @@
-import BlogStandard from "@/app/Components/Blog/BlogStandard";
+import BlogDetails from "@/app/Components/BlogDetails/BlogDetails";
 import BreadCumb from "@/app/Components/Common/BreadCumb";
 import React from "react";
 
@@ -7,9 +7,9 @@ const page = () => {
     <div>
       <BreadCumb
         bgimg="/assets/images/bg/breadcumgBg.png"
-        Title="Blog Standard"
+        Title="Blog Details"
       ></BreadCumb>
-      <BlogStandard></BlogStandard>
+      <BlogDetails></BlogDetails>
     </div>
   );
 };

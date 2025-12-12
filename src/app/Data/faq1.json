@@ -1,26 +1,26 @@
 [
-  {  
-    "title": "Looking for a solution to boost productivity?",
-    "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly"
+  {
+    "title": "Berapa lama waktu pengerjaan website atau aplikasi?",
+    "desc": "Waktu pengerjaan bervariasi tergantung kompleksitas project. Landing page sederhana biasanya 7-14 hari, website company profile 2-4 minggu, sedangkan aplikasi mobile atau sistem custom bisa 1-3 bulan. Kami akan memberikan timeline yang jelas di awal project."
   },
   {
-    "title": "Need an easy way to manage your projects?",
-    "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly"
+    "title": "Apakah saya bisa request fitur custom sesuai kebutuhan bisnis?",
+    "desc": "Tentu! Semua layanan kami bisa disesuaikan sepenuhnya dengan kebutuhan bisnis Anda. Kami akan diskusikan fitur-fitur yang dibutuhkan saat konsultasi awal dan memberikan estimasi biaya yang transparan."
   },
   {
-     "title": "Seeking a user-friendly solution for your team?",
-    "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly"
-  },
-  {  
-    "title": "Looking for a solution to boost productivity?",
-    "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly"
+    "title": "Apakah ada biaya maintenance setelah website/aplikasi jadi?",
+    "desc": "Ya, kami menyediakan paket maintenance bulanan atau tahunan yang mencakup update konten, backup rutin, monitoring keamanan, dan technical support. Namun ini opsional—Anda bisa memilih sesuai kebutuhan."
   },
   {
-    "title": "Need an easy way to manage your projects?",
-    "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly"
+    "title": "Teknologi apa saja yang digunakan Samta Dev?",
+    "desc": "Kami menggunakan teknologi modern seperti React, Next.js, Node.js, Laravel, Flutter, dan database seperti MySQL/PostgreSQL. Semua dipilih berdasarkan kebutuhan project untuk memastikan performa optimal dan kemudahan pengembangan di masa depan."
   },
   {
-     "title": "Seeking a user-friendly solution for your team?",
-    "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly"
-  }  
+    "title": "Apakah website/aplikasi yang dibuat SEO-friendly?",
+    "desc": "Ya, semua website yang kami buat sudah dioptimasi untuk SEO dasar, termasuk struktur URL yang baik, meta tags, loading speed optimization, dan mobile responsiveness. Untuk SEO advanced, kami juga menyediakan layanan tambahan."
+  },
+  {
+    "title": "Bagaimana sistem pembayaran untuk project?",
+    "desc": "Pembayaran biasanya dibagi menjadi 2-3 tahap: DP (30-50%) saat kontrak, progress payment (25-35%) saat development selesai, dan pelunasan (20-40%) saat project launching. Sistem ini dapat disesuaikan dengan kesepakatan."
+  }
 ]
