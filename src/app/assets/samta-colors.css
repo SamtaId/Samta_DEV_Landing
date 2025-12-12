@@ -1,0 +1,603 @@
+/*-----------------------------------------------------------------
+  Samta Dev - Color Identity System
+  
+  Warna resmi brand Samta Dev untuk konsistensi visual
+  di seluruh aplikasi dan website.
+-------------------------------------------------------------------*/
+
+:root {
+  /* ============================================
+     PRIMARY COLORS - Warna Utama Brand
+  ============================================ */
+  
+  /* Gold/Emas - Warna Utama Brand Samta Dev */
+  --samta-primary: #C5A572;           /* Gold utama */
+  --samta-primary-light: #D4BC8E;     /* Gold terang */
+  --samta-primary-dark: #A8895C;      /* Gold gelap */
+  --samta-primary-hover: #B99A66;     /* Gold hover state */
+  
+  /* ============================================
+     SECONDARY COLORS - Warna Pendukung
+  ============================================ */
+  
+  /* Secondary juga pakai gold untuk konsistensi */
+  --samta-secondary: #C5A572;         /* Gold utama */
+  --samta-secondary-light: #D4BC8E;   /* Gold terang */
+  --samta-secondary-dark: #A8895C;    /* Gold gelap */
+  
+  /* ============================================
+     NEUTRAL COLORS - Warna Netral
+  ============================================ */
+  
+  /* Dark - Untuk teks dan header */
+  --samta-dark: #1E1E1E;              /* Hitam utama */
+  --samta-dark-secondary: #2D2D2D;    /* Hitam sekunder */
+  --samta-dark-tertiary: #3D3D3D;     /* Hitam tersier */
+  
+  /* Gray - Untuk teks sekunder */
+  --samta-gray: #6B7280;              /* Abu-abu utama */
+  --samta-gray-light: #9CA3AF;        /* Abu-abu terang */
+  --samta-gray-lighter: #E5E7EB;      /* Abu-abu sangat terang */
+  
+  /* Light - Untuk background */
+  --samta-white: #FFFFFF;             /* Putih */
+  --samta-light: #F9FAFB;             /* Off-white */
+  --samta-light-secondary: #F3F4F6;   /* Background sekunder */
+  
+  /* ============================================
+     ACCENT COLORS - Warna Aksen
+  ============================================ */
+  
+  /* Status Colors */
+  --samta-success: #10B981;           /* Hijau sukses */
+  --samta-warning: #F59E0B;           /* Kuning warning */
+  --samta-error: #EF4444;             /* Merah error */
+  --samta-info: #3B82F6;              /* Biru info */
+  
+  /* Progress Status (dari mockup app) */
+  --samta-status-progress: #1A7F6D;   /* On Progress - Teal */
+  --samta-status-complete: #10B981;   /* Selesai - Green */
+  --samta-status-design: #6B7280;     /* Design - Gray */
+  
+  /* ============================================
+     GRADIENT COLORS - Warna Gradien
+  ============================================ */
+  
+  --samta-gradient-primary: linear-gradient(135deg, #C9A227 0%, #D4B84A 100%);
+  --samta-gradient-secondary: linear-gradient(135deg, #1A7F6D 0%, #2BA08A 100%);
+  --samta-gradient-dark: linear-gradient(135deg, #1E1E1E 0%, #2D2D2D 100%);
+  --samta-gradient-hero: linear-gradient(180deg, rgba(201, 162, 39, 0.05) 0%, rgba(255, 255, 255, 0) 100%);
+  
+  /* ============================================
+     BACKGROUND OVERLAYS
+  ============================================ */
+  
+  --samta-overlay-light: rgba(201, 162, 39, 0.1);
+  --samta-overlay-dark: rgba(30, 30, 30, 0.8);
+  
+  /* ============================================
+     SHADOW COLORS
+  ============================================ */
+  
+  --samta-shadow-sm: 0px 2px 8px rgba(0, 0, 0, 0.08);
+  --samta-shadow-md: 0px 4px 16px rgba(0, 0, 0, 0.1);
+  --samta-shadow-lg: 0px 8px 32px rgba(0, 0, 0, 0.12);
+  --samta-shadow-gold: 0px 4px 20px rgba(201, 162, 39, 0.3);
+}
+
+/* ============================================
+   OVERRIDE THEME VARIABLES
+   Mengganti variabel theme default dengan 
+   warna Samta Dev
+============================================ */
+
+:root {
+  /* Override default theme colors */
+  --theme: var(--samta-primary);
+  --theme2: var(--samta-light);
+  --theme3: var(--samta-light-secondary);
+  --title: var(--samta-dark);
+  --header: var(--samta-dark);
+  --text: var(--samta-gray);
+}
+
+/* ============================================
+   UTILITY CLASSES - Kelas Utilitas
+============================================ */
+
+/* Background Colors */
+.bg-samta-primary { background-color: var(--samta-primary) !important; }
+.bg-samta-secondary { background-color: var(--samta-secondary) !important; }
+.bg-samta-dark { background-color: var(--samta-dark) !important; }
+.bg-samta-light { background-color: var(--samta-light) !important; }
+
+/* Text Colors */
+.text-samta-primary { color: var(--samta-primary) !important; }
+.text-samta-secondary { color: var(--samta-secondary) !important; }
+.text-samta-dark { color: var(--samta-dark) !important; }
+.text-samta-gray { color: var(--samta-gray) !important; }
+
+/* Border Colors */
+.border-samta-primary { border-color: var(--samta-primary) !important; }
+.border-samta-secondary { border-color: var(--samta-secondary) !important; }
+
+/* Gradient Backgrounds */
+.bg-gradient-primary { background: var(--samta-gradient-primary) !important; }
+.bg-gradient-secondary { background: var(--samta-gradient-secondary) !important; }
+
+/* ============================================
+   HERO SECTION - Lingkaran Gold
+   Mengganti lingkaran ungu dengan gold
+============================================ */
+
+/* Hero wrapper - centered dan lebih kecil, naikkan ke atas */
+.intro-wrapper.style1 {
+  max-width: 100% !important;
+  margin: 0 auto !important;
+  margin-top: -40px !important;
+  border-radius: 50px !important;
+}
+
+/* Sembunyikan gambar shape lama (jika ada) */
+.intro-wrapper.style1 .intro-thumb .thumbShape1 img,
+.intro-wrapper.style1 .intro-thumb .thumbShape2 img,
+.intro-wrapper.style1 .shape1 img,
+.intro-wrapper.style1 .shape2 img {
+  display: none !important;
+}
+
+/* Shape background gold - pojok kiri bawah */
+.intro-wrapper.style1 .shape1 {
+  position: absolute !important;
+  bottom: -50px !important;
+  left: -50px !important;
+  width: 700px !important;
+  height: 600px !important;
+  background: radial-gradient(ellipse at 0% 100%, 
+    rgba(197, 165, 114, 0.2) 0%, 
+    rgba(197, 165, 114, 0.12) 30%, 
+    rgba(197, 165, 114, 0.05) 50%,
+    transparent 70%) !important;
+  filter: blur(40px) !important;
+  z-index: 1 !important;
+}
+
+/* Shape background gold - pojok kanan atas */
+.intro-wrapper.style1 .shape2 {
+  position: absolute !important;
+  top: -50px !important;
+  right: -50px !important;
+  width: 600px !important;
+  height: 600px !important;
+  background: radial-gradient(ellipse at 100% 0%, 
+    rgba(197, 165, 114, 0.18) 0%, 
+    rgba(197, 165, 114, 0.1) 30%, 
+    rgba(197, 165, 114, 0.04) 50%,
+    transparent 70%) !important;
+  filter: blur(40px) !important;
+  z-index: 1 !important;
+}
+
+/* Lingkaran luar - gold terang dengan fade */
+.intro-wrapper.style1 .intro-thumb .thumbShape1 {
+  position: absolute !important;
+  top: 180px !important;
+  right: -20px !important;
+  width: 580px !important;
+  height: 580px !important;
+  border-radius: 50% !important;
+  background: radial-gradient(circle at 30% 30%, 
+    rgba(212, 188, 142, 0.6) 0%, 
+    rgba(197, 165, 114, 0.4) 40%, 
+    rgba(197, 165, 114, 0.15) 70%, 
+    transparent 100%) !important;
+  z-index: 0 !important;
+}
+
+/* Lingkaran dalam - gold lebih solid */
+.intro-wrapper.style1 .intro-thumb .thumbShape2 {
+  position: absolute !important;
+  top: 250px !important;
+  right: 30px !important;
+  width: 480px !important;
+  height: 480px !important;
+  border-radius: 50% !important;
+  background: radial-gradient(circle at 30% 30%, 
+    rgba(197, 165, 114, 0.85) 0%, 
+    rgba(197, 165, 114, 0.6) 30%,
+    rgba(212, 188, 142, 0.4) 60%, 
+    rgba(245, 240, 230, 0.3) 100%) !important;
+  z-index: 0 !important;
+}
+
+/* Override background ungu ke putih/netral */
+.intro-wrapper.style1 {
+  background: linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(249,250,251,1) 100%) !important;
+}
+
+/* Efek fade/blur di bagian bawah gambar HP (tangan) */
+.intro-wrapper.style1 .intro-thumb .main-thumb {
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 70%,
+    rgba(0, 0, 0, 0.6) 85%,
+    rgba(0, 0, 0, 0.2) 95%,
+    rgba(0, 0, 0, 0) 100%
+  ) !important;
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 70%,
+    rgba(0, 0, 0, 0.6) 85%,
+    rgba(0, 0, 0, 0.2) 95%,
+    rgba(0, 0, 0, 0) 100%
+  ) !important;
+}
+
+@media (max-width: 1199px) {
+  .intro-wrapper.style1 .intro-thumb .thumbShape1 {
+    width: 420px !important;
+    height: 420px !important;
+    top: 150px !important;
+    right: -10px !important;
+  }
+  .intro-wrapper.style1 .intro-thumb .thumbShape2 {
+    width: 340px !important;
+    height: 340px !important;
+    top: 200px !important;
+    right: 20px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .intro-wrapper.style1 .intro-thumb .thumbShape1 {
+    width: 280px !important;
+    height: 280px !important;
+    top: 80px !important;
+    right: 50% !important;
+    transform: translateX(50%);
+  }
+  .intro-wrapper.style1 .intro-thumb .thumbShape2 {
+    width: 220px !important;
+    height: 220px !important;
+    top: 110px !important;
+    right: 50% !important;
+    transform: translateX(50%);
+  }
+}
+
+/* ============================================
+   OVERRIDE WARNA UNGU KE GOLD
+   Mengganti semua warna ungu (116, 68, 253)
+   dengan warna gold #C5A572
+============================================ */
+
+/* Intro subtitle badge */
+.intro-wrapper.style1 .intro-content .intro-section-title .intro-subtitle,
+.intro-wrapper.style2 .intro-content .intro-section-title .intro-subtitle {
+  background: rgba(197, 165, 114, 0.15) !important;
+}
+
+/* Intro wrapper backgrounds */
+.intro-wrapper.style2 {
+  background: rgba(197, 165, 114, 0.06) !important;
+}
+
+/* Section backgrounds yang pakai ungu */
+.wcu-section,
+.testimonial-section,
+.faq-section,
+.counter-section {
+  background: rgba(197, 165, 114, 0.06) !important;
+}
+
+/* Feature card backgrounds */
+.feature-card,
+.pricing-card {
+  background: rgba(197, 165, 114, 0.06) !important;
+}
+
+/* ============================================
+   WORK PROCESS - Ubah Dot Ungu ke Gold
+============================================ */
+
+/* Sembunyikan gambar shape asli dengan dot ungu */
+.work-process-wrapper.style1 .shape img {
+  display: none !important;
+}
+
+/* Buat dot gold custom dengan pseudo element */
+.work-process-box.style1::after {
+  content: '';
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 16px;
+  height: 16px;
+  background: var(--samta-primary);
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(197, 165, 114, 0.2);
+  z-index: 10;
+}
+
+/* Box process harus position relative */
+.work-process-box.style1 {
+  position: relative !important;
+}
+
+/* Buat garis penghubung gold */
+.work-process-wrapper.style1::before {
+  content: '';
+  position: absolute;
+  bottom: -42px;
+  left: 16%;
+  right: 16%;
+  height: 2px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    rgba(197, 165, 114, 0.3) 10%,
+    rgba(197, 165, 114, 0.6) 50%,
+    rgba(197, 165, 114, 0.3) 90%,
+    transparent 100%);
+  z-index: 1;
+}
+
+@media (max-width: 1199px) {
+  .work-process-box.style1::after {
+    display: none !important;
+  }
+  .work-process-wrapper.style1::before {
+    display: none !important;
+  }
+}
+
+/* ============================================
+   FAQ ACCORDION - Warna Gold
+============================================ */
+
+/* Icon accordion - ubah warna dari ungu ke gold dengan filter */
+.faq-content .accordion-item .accordion-header .accordion-button:after,
+.wp-content .accordion-item .accordion-header .accordion-button:after {
+  filter: brightness(0) saturate(100%) invert(58%) sepia(18%) saturate(811%) hue-rotate(356deg) brightness(91%) contrast(88%) !important;
+}
+
+/* Warna background accordion saat active */
+.faq-content .accordion-item .accordion-header .accordion-button {
+  background-color: rgba(197, 165, 114, 0.08) !important;
+  color: var(--samta-primary) !important;
+}
+
+/* Accordion button collapsed state */
+.faq-content .accordion-item .accordion-header .accordion-button.collapsed {
+  background-color: transparent !important;
+  border: 1px solid rgba(197, 165, 114, 0.2) !important;
+  color: var(--samta-dark) !important;
+}
+
+/* Hover state */
+.faq-content .accordion-item .accordion-header .accordion-button:hover {
+  background-color: rgba(197, 165, 114, 0.12) !important;
+}
+
+/* Active accordion background color */
+.faq-content .accordion-item .accordion-collapse .accordion-body {
+  background-color: rgba(197, 165, 114, 0.05) !important;
+  color: var(--samta-gray) !important;
+}
+
+/* Style1 specific */
+.faq-content.style1 .accordion-item {
+  background-color: rgba(197, 165, 114, 0.06) !important;
+}
+
+.faq-content.style1 .accordion-item .accordion-header .accordion-button {
+  background-color: rgba(197, 165, 114, 0.06) !important;
+  color: var(--samta-dark) !important;
+}
+
+/* ============================================
+   FOOTER - Warna Gold & Cream
+============================================ */
+
+/* Footer background - gradasi cream gold */
+.footer-widgets-wrapper.style1 {
+  background: linear-gradient(135deg, #F5F0E6 0%, #FAF7F0 50%, #F5F0E6 100%) !important;
+}
+
+/* Footer heading underline - gold */
+.footer-widgets-wrapper.style1 .single-footer-widget .widget-head h3::before {
+  background-color: var(--samta-primary) !important;
+}
+
+/* Footer text colors */
+.footer-widgets-wrapper.style1 .single-footer-widget .footer-content p {
+  color: var(--samta-gray) !important;
+}
+
+.footer-widgets-wrapper.style1 .single-footer-widget .widget-head h3 {
+  color: var(--samta-dark) !important;
+}
+
+/* Footer link hover - gold */
+.footer-widgets-wrapper.style1 .single-footer-widget .list-area li a {
+  color: var(--samta-gray) !important;
+  transition: all 0.3s ease;
+}
+
+.footer-widgets-wrapper.style1 .single-footer-widget .list-area li a:hover {
+  color: var(--samta-primary) !important;
+  margin-left: 5px;
+}
+
+/* Footer button - gold background */
+.footer-widgets-wrapper.style1 .single-footer-widget .footer-content .store-links .apple a {
+  background: var(--samta-primary) !important;
+  color: var(--white) !important;
+  transition: all 0.3s ease;
+}
+
+.footer-widgets-wrapper.style1 .single-footer-widget .footer-content .store-links .apple a:hover {
+  background: var(--samta-primary-dark) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(197, 165, 114, 0.3);
+}
+
+.footer-widgets-wrapper.style1 .single-footer-widget .footer-content .store-links .play a {
+  background: var(--samta-dark) !important;
+  color: var(--white) !important;
+  transition: all 0.3s ease;
+}
+
+.footer-widgets-wrapper.style1 .single-footer-widget .footer-content .store-links .play a:hover {
+  background: var(--samta-dark-secondary) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(30, 30, 30, 0.2);
+}
+
+/* Footer bottom copyright */
+.footer-bottom.style1 {
+  background: rgba(197, 165, 114, 0.08) !important;
+}
+
+/* Contact info box - gold accent */
+.footer-widgets-wrapper.style1 .single-footer-widget .contact-box {
+  border-left: 3px solid var(--samta-primary) !important;
+}
+
+/* ============================================
+   FEATURE/ICON - Ubah Warna Ungu ke Gold
+   Filter untuk mengubah icon SVG dari ungu ke gold
+============================================ */
+
+/* Icon di fancy-box dan feature sections */
+.fancy-box.style2 .icon img,
+.fancy-box.style2 .icon svg,
+.feature-provide-box-items .icon img,
+.feature-provide-box-items .icon svg {
+  filter: brightness(0) saturate(100%) invert(58%) sepia(18%) saturate(811%) hue-rotate(356deg) brightness(91%) contrast(88%) !important;
+}
+
+/* Service icon box */
+.service-box.style1 .icon-box,
+.service-box.style3 .icon-box {
+  background: rgba(197, 165, 114, 0.1) !important;
+}
+
+.service-box.style1:hover .icon-box,
+.service-box.style1.active .icon-box,
+.service-box.style3:hover .icon-box {
+  background: var(--samta-primary) !important;
+}
+
+/* Contact info box icon */
+.contact-info-box.style1 .contact-content .icon svg path {
+  fill: var(--samta-primary) !important;
+}
+
+.contact-info-box.style1:hover .contact-content .icon svg path {
+  fill: var(--white) !important;
+}
+
+/* ============================================
+   FOOTER SHAPE - Sembunyikan atau ubah warna
+============================================ */
+
+/* Sembunyikan shape ungu di footer atau ubah dengan filter gold */
+.footer-widgets-wrapper.style1 .shape1 img,
+.footer-widgets-wrapper.style1 .shape2 img,
+.footer-widgets-wrapper.style1 .shape3 img {
+  filter: brightness(0) saturate(100%) invert(96%) sepia(8%) saturate(463%) hue-rotate(346deg) brightness(102%) contrast(96%) !important;
+  opacity: 0.5 !important;
+}
+
+/* Tambahkan padding container agar tidak terlalu dekat ke tepi */
+.footer-widgets-wrapper.style1 .container {
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}
+
+@media (max-width: 1199px) {
+  .footer-widgets-wrapper.style1 .container {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-widgets-wrapper.style1 .container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
+/* Contact box subtitle - ubah dari ungu ke gold */
+.footer-widgets-wrapper.style1 .single-footer-widget .contact-box .subtitle {
+  color: var(--samta-primary) !important;
+}
+
+/* Contact box background */
+.footer-widgets-wrapper.style1 .single-footer-widget .contact-box {
+  background: rgba(197, 165, 114, 0.05) !important;
+  border: 1px solid rgba(197, 165, 114, 0.2) !important;
+}
+
+/* Contact box icon SVG stroke - ubah dari ungu ke gold */
+.footer-widgets-wrapper.style1 .single-footer-widget .contact-box .info .icon svg path {
+  stroke: var(--samta-primary) !important;
+}
+
+/* Tambahkan efek hover untuk icon */
+.footer-widgets-wrapper.style1 .single-footer-widget .contact-box .info:hover .icon svg path {
+  stroke: var(--samta-primary-dark) !important;
+}
+
+/* ============================================
+   COUNTER SECTION - Design Gold & White Clean
+============================================ */
+
+/* Counter wrapper - gold gradient yang clean */
+.counter-wrapper.style1 {
+  background: linear-gradient(135deg, #C5A572 0%, #D4BC8E 50%, #C5A572 100%) !important;
+  box-shadow: 0 10px 40px rgba(197, 165, 114, 0.3) !important;
+}
+
+/* Counter section background - white bersih */
+.counter-section {
+  background: #FFFFFF !important;
+}
+
+/* Sembunyikan background image yang ungu */
+.counter-wrapper.style1[data-background] {
+  background-image: none !important;
+}
+
+/* Counter container wrapper - white */
+.counter-container-wrapper.style1 {
+  background: #FFFFFF !important;
+}
+
+/* ============================================
+   BREADCRUMB - Warna Gold
+============================================ */
+
+/* Breadcrumb background - cream gold */
+.breadcumb-container-wrapper {
+  background: linear-gradient(135deg, #F5F0E6 0%, #FAF7F0 100%) !important;
+}
+
+/* Breadcrumb link color - gold */
+.breadcumb-container-wrapper .breadcumb-wrapper .page-heading .links {
+  color: var(--samta-primary) !important;
+}
+
+/* Breadcrumb link hover */
+.breadcumb-container-wrapper .breadcumb-wrapper .page-heading .links a {
+  color: var(--samta-dark) !important;
+  transition: color 0.3s ease;
+}
+
+.breadcumb-container-wrapper .breadcumb-wrapper .page-heading .links a:hover {
+  color: var(--samta-primary) !important;
+}

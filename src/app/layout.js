@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "slick-carousel/slick/slick.css";
 import "./assets/main.css";
+import "./assets/samta-colors.css";
 
 const urbanist = Urbanist({
   subsets: ["latin"],
@@ -134,7 +135,7 @@ export default function RootLayout({ children }) {
         <link rel="manifest" href="/site.webmanifest" />
 
         {/* Theme Color */}
-        <meta name="theme-color" content="#7444FD" />
+        <meta name="theme-color" content="#c4a86d" />
 
         {/* Preconnect untuk performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />

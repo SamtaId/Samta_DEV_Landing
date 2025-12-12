@@ -56,7 +56,7 @@ Description: Niotech - sass, App Landing Reactjs Template <
   --body: #fff;
   --black: #000;
   --white: #fff;
-  --theme: #7444FD;
+  --theme: #c4a86d;
   --theme2: #F9F3EF;
   --theme3: #FAF8FF;
   --title: #282C32;
@@ -2610,7 +2610,7 @@ input[type=radio]:checked ~ label::before {
   align-items: center;
   gap: 10px;
   border-radius: 100px;
-  background: rgba(116, 68, 253, 0.15);
+  background: rgba(197, 165, 114, 0.15);
   color: var(--theme);
   font-family: "Urbanist", sans-serif;
   font-size: 16px;
@@ -5295,7 +5295,7 @@ input.main-search-input::placeholder {
   content: "";
   width: 25px;
   height: 2px;
-  background-color: #7444FD;
+  background-color: #C5A572;
 }
 .footer-widgets-wrapper .single-footer-widget .widget-head h3::after {
   position: absolute;
@@ -5767,7 +5767,7 @@ input.main-search-input::placeholder {
 .intro-wrapper.style1 {
   position: relative;
   border-radius: 50px;
-  background: rgba(116, 68, 253, 0.06);
+  background: rgba(197, 165, 114, 0.06);
   margin-top: 40px;
 }
 @media (max-width: 767px) {
@@ -5827,7 +5827,7 @@ input.main-search-input::placeholder {
   align-items: center;
   gap: 10px;
   border-radius: 30px;
-  background: rgba(116, 68, 253, 0.15);
+  background: rgba(197, 165, 114, 0.15);
   backdrop-filter: blur(2px);
   color: var(--theme);
   font-family: "Urbanist", sans-serif;
@@ -5944,7 +5944,7 @@ input.main-search-input::placeholder {
 }
 .intro-wrapper.style2 {
   position: relative;
-  background: rgba(116, 68, 253, 0.06);
+  background: rgba(197, 165, 114, 0.06);
 }
 .intro-wrapper.style2 .intro-content {
   position: relative;
@@ -6269,7 +6269,7 @@ input.main-search-input::placeholder {
   width: 465px;
   height: 350px;
   border-radius: 0px 0px 50px 50px;
-  background: #E8E5FD;
+  background: #F5F0E6;
 }
 @media (max-width: 767px) {
   .about-wrapper.style1 .about-thumb .bg {
@@ -6455,7 +6455,7 @@ input.main-search-input::placeholder {
   align-items: center;
   gap: 10px;
   border-radius: 100px;
-  background: rgba(116, 68, 253, 0.15);
+  background: rgba(197, 165, 114, 0.15);
   margin-bottom: 10px;
 }
 .work-process-box.style1 .title {
@@ -7091,7 +7091,7 @@ input.main-search-input::placeholder {
 .testimonial-wrapper.style1 {
   position: relative;
   border-radius: 50px;
-  background: rgba(116, 68, 253, 0.06);
+  background: rgba(197, 165, 114, 0.06);
 }
 .testimonial-wrapper.style1 .section-title {
   position: relative;
@@ -7119,7 +7119,7 @@ input.main-search-input::placeholder {
   position: relative;
   padding: 506px 0 120px;
   border-radius: 50px;
-  background: rgba(116, 68, 253, 0.06);
+  background: rgba(197, 165, 114, 0.06);
 }
 .testimonial-wrapper.style2 .shape1 {
   position: absolute;
@@ -7651,7 +7651,7 @@ input.main-search-input::placeholder {
 /* 26.Pricing */
 .pricing-container-wrapper.style3 {
   position: relative;
-  background: rgba(116, 68, 253, 0.06);
+  background: rgba(197, 165, 114, 0.06);
 }
 .pricing-container-wrapper.style3 .shape1 {
   position: absolute;
@@ -8799,7 +8799,7 @@ input.main-search-input::placeholder {
 
 .service-container-wrapper.style3 {
   position: relative;
-  background: rgba(116, 68, 253, 0.06);
+  background: rgba(197, 165, 114, 0.06);
   padding-top: 300px;
 }
 @media (max-width: 767px) {
@@ -10598,7 +10598,7 @@ textarea.is-invalid {
   width: 100%;
   z-index: 101;
   left: 0;
-  top: 40px;
+  top: 0;
   transition: all 0.4s ease;
 }
 .cs_site_header.cs_style_1 .cs_main_header_in, .cs_site_header.cs_style_1 .cs_top_header_in {
@@ -10857,7 +10857,7 @@ textarea.is-invalid {
     width: 230px;
     background-color:#fff;
     position: absolute;
-    border-top: 2px solid #7444fd;
+    border-top: 2px solid #C5A572;
     -webkit-box-shadow: 0px 1px 2px 0px rgba(2, 0, 181, 0.1);
     box-shadow: 0px 1px 2px 0px rgba(2, 0, 181, 0.1);
     padding: 10px 0;

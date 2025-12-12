@@ -35,7 +35,7 @@ const Pricing1 = () => {
                 className={`nav-item ${isActive === "monthly" ? "active" : ""}`}
                 onClick={() => setIsActive("monthly")}
               >
-                <button className="nav-link active" type="button">
+                <button className={`nav-link ${isActive === "monthly" ? "active" : ""}`} type="button">
                   Bulanan
                 </button>
               </li>
@@ -44,7 +44,7 @@ const Pricing1 = () => {
                 className={`nav-item ${isActive === "yearly" ? "active" : ""}`}
                 onClick={() => setIsActive("yearly")}
               >
-                <button className="nav-link" type="button">
+                <button className={`nav-link ${isActive === "yearly" ? "active" : ""}`} type="button">
                   Tahunan (Lebih Hemat)
                 </button>
               </li>

@@ -1,7 +1,6 @@
 import React from "react";
 import HeroBanner1 from "../Components/HeroBanner/HeroBanner1";
 import Brand1 from "../Components/Brand/Brand1";
-import About1 from "../Components/About/About1";
 import HowWork from "../Components/HowWork/HowWork";
 import Choose1 from "../Components/Choose/Choose1";
 import Feature1 from "../Components/Feature/Feature1";
@@ -25,12 +24,7 @@ const page = () => {
         btnurl="/contact"
         btntwo="Lihat Layanan"
         btn2url="/services"
-        cusimg="/assets/images/intro/introProfileThumb1_1.png"
-        cusnumber="150+"
-        cuscontent="Project Sukses"
-        rating="4.9/5"
-        ratingcon="Kepuasan Klien"
-        img="/assets/images/intro/introThumb1_1.png"
+        img="/assets/images/intro/into.png"
       />
       <Brand1></Brand1>
       <About4
