@@ -12,12 +12,12 @@ const About4 = ({img1,img2,subtitle,title,content,FeatureList,btnname,btnurl}) =
                             <div className="col-xl-6">
                                 <div className="about-thumb">
                                     <div className="bg"></div>
-                                    <div className="thumbShape1 d-none d-xxl-block cir36">
+                                    {/* <div className="thumbShape1 d-none d-xxl-block cir36">
                                     <Image src="/assets/images/shape/aboutThumbShape1_1.png" alt="img" width={67} height={67}   />
-                                        </div>
-                                    <div className="thumbShape2 d-none d-xxl-block cir36">
+                                        </div> */}
+                                    {/* <div className="thumbShape2 d-none d-xxl-block cir36">
                                     <Image src="/assets/images/shape/aboutThumbShape1_2.png" alt="img" width={24} height={24}   />
-                                        </div>
+                                        </div> */}
                                     <div className="thumbShape3 d-none d-xxl-block cir36 float-bob-y">
                                     <Image src="/assets/images/shape/aboutThumbShape1_3.png" alt="img" width={200} height={200}   />
                                        </div>
@@ -44,7 +44,7 @@ const About4 = ({img1,img2,subtitle,title,content,FeatureList,btnname,btnurl}) =
                                     </div>
                                     <ul className="checklist style1 wow fadeInUp" data-wow-delay=".2s">
                                     {FeatureList?.map((item, index) => (
-                                        <li key={index}><Image src="/assets/images/icon/checkmarkIcon.svg" alt="img" width={30} height={30}   /> {item}</li>
+                                        <li key={index} className="about-4-list"><Image src="/assets/images/icon/checkmarkIcon.svg" alt="img" className="checkMarkIcon" width={30} height={30}/> <p className="about-4-desc">{item}</p></li>
                                     ))}
                                     </ul>
                                     <Link className="theme-btn wow fadeInUp" data-wow-delay=".2s" href={btnurl}>{btnname}

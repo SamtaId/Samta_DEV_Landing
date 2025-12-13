@@ -146,6 +146,19 @@
   display: none !important;
 }
 
+/* Transisi warna utk section dgn bg berbeda */
+.content-section-color-transition{
+  width: 100%;
+  height: 120px;
+  background: linear-gradient(
+    to bottom,
+    #fff 0%,
+    #C5A5720F 100%
+  );
+
+
+}
+
 /* Shape background gold - pojok kiri bawah */
 .intro-wrapper.style1 .shape1 {
   position: absolute !important;
@@ -179,7 +192,7 @@
 }
 
 /* Lingkaran luar - gold terang dengan fade */
-.intro-wrapper.style1 .intro-thumb .thumbShape1 {
+.thumbShape1 {
   position: absolute !important;
   top: 180px !important;
   right: -20px !important;
@@ -192,10 +205,11 @@
     rgba(197, 165, 114, 0.15) 70%, 
     transparent 100%) !important;
   z-index: 0 !important;
+
 }
 
 /* Lingkaran dalam - gold lebih solid */
-.intro-wrapper.style1 .intro-thumb .thumbShape2 {
+.thumbShape2 {
   position: absolute !important;
   top: 250px !important;
   right: 30px !important;
@@ -208,7 +222,25 @@
     rgba(212, 188, 142, 0.4) 60%, 
     rgba(245, 240, 230, 0.3) 100%) !important;
   z-index: 0 !important;
+
 }
+
+
+.choose-us-image {
+  opacity: 0.6;
+  
+  -webkit-mask-image: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  mask-image: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
 
 /* Override background ungu ke putih/netral */
 .intro-wrapper.style1 {
@@ -264,6 +296,10 @@
     top: 110px !important;
     right: 50% !important;
     transform: translateX(50%);
+  }
+
+  .content-section-color-transition{
+    height: 50px;
   }
 }
 
@@ -518,11 +554,23 @@
   padding-right: 40px !important;
 }
 
+.about-4-list{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 @media (max-width: 1199px) {
   .footer-widgets-wrapper.style1 .container {
     padding-left: 30px !important;
     padding-right: 30px !important;
   }
+
+    .work-process-box.style1 {
+  /* text-align: center; */
+  max-width: 500px;
+  /* margin: auto; */
+}
 }
 
 @media (max-width: 767px) {
@@ -530,6 +578,33 @@
     padding-left: 20px !important;
     padding-right: 20px !important;
   }
+
+  .intro-thumb{
+    display: none;
+  }
+
+  .intro-content{
+    margin-top: 5em;
+  }
+
+.main-thumb img {
+    height: 250px;
+    width: 80%;
+    /* object-fit: cover; */
+    transform: scale(1.1);
+}
+
+.checkMarkIcon{
+  width: 18px;
+  height: 18px;
+}
+
+
+.about-4-desc{
+  font-size: 16px;
+  color: #6B7280;
+}
+
 }
 
 /* Contact box subtitle - ubah dari ungu ke gold */

@@ -88,6 +88,7 @@ body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 ul {
@@ -6234,9 +6235,10 @@ input.main-search-input::placeholder {
 
 /* 17.Brand */
 .brandSliderOne {
-  padding: 30px 0 110px;
-  border-bottom: 1px solid var(--border);
+  padding: 30px 0;
+  /* border-bottom: 1px solid var(--border); */
 }
+
 .brandSliderOne .brand-logo {
   text-align: center;
 }
@@ -6428,6 +6430,8 @@ input.main-search-input::placeholder {
   .about-section-3 .about-shape {
     display: none;
   }
+
+
 }
 
 /* 19.Work Process */
@@ -6657,7 +6661,7 @@ input.main-search-input::placeholder {
 /* 20.Advantage */
 .advantage-wrapper.style1 {
   border-radius: 50px;
-  background: #FAF8FF;
+  /* background: #FAF8FF; */
 }
 .advantage-wrapper.style1 .advantage-content .checklist-wrapper {
   margin-bottom: 30px;
@@ -9217,7 +9221,7 @@ input.main-search-input::placeholder {
   text-align: center;
   padding: 24px;
   border-radius: 20px;
-  background: #F8F8FF;
+  background: linear-gradient(135deg, #f5f0e6 0%, #faf7f0 50%, #f5f0e6 100%) !important;
 }
 .team-card.style1 .team-thumb {
   margin-top: -150px;
@@ -9265,7 +9269,7 @@ input.main-search-input::placeholder {
   height: 40px;
   line-height: 40px;
   text-align: center;
-  background-color: #E7F1FF;
+  background-color: white;
   color: var(--theme);
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -9447,7 +9451,7 @@ input.main-search-input::placeholder {
 ----------------------------------------------*/
 .main-sidebar .single-sidebar-widget {
   padding: 40px 30px;
-  background-color: var(--bg-2);
+  background-color: #c5a5720f;
   margin-bottom: 30px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -9796,7 +9800,7 @@ input.main-search-input::placeholder {
 /* 34.Contact */
 .contact-info-box.style1 {
   padding: 12px;
-  background-color: #FAF8FF;
+  background-color: #c5a5720f;
   border-radius: 10px;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
@@ -9808,7 +9812,7 @@ input.main-search-input::placeholder {
   padding: 50px 30px 30px;
   text-align: center;
   border-radius: 10px;
-  background-color: #FAF8FF;
+  background-color: #c5a5720f;
   border: 1px solid #E6E5E5;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;

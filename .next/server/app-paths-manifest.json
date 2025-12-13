@@ -1,14 +1,11 @@
 {
   "/(home1)/page": "app/(home1)/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/(innerpage)/contact/page": "app/(innerpage)/contact/page.js",
-  "/(innerpage)/blog-sidebar/page": "app/(innerpage)/blog-sidebar/page.js",
-  "/(innerpage)/blog/[slug]/page": "app/(innerpage)/blog/[slug]/page.js",
-  "/(innerpage)/blog/page": "app/(innerpage)/blog/page.js",
-  "/(innerpage)/service/page": "app/(innerpage)/service/page.js",
-  "/(innerpage)/team/page": "app/(innerpage)/team/page.js",
   "/(innerpage)/about/page": "app/(innerpage)/about/page.js",
+  "/(innerpage)/team/page": "app/(innerpage)/team/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/(innerpage)/pricing/page": "app/(innerpage)/pricing/page.js",
   "/(innerpage)/project/page": "app/(innerpage)/project/page.js",
-  "/(innerpage)/pricing/page": "app/(innerpage)/pricing/page.js"
+  "/(innerpage)/blog/page": "app/(innerpage)/blog/page.js",
+  "/(innerpage)/contact/page": "app/(innerpage)/contact/page.js"
 }
