@@ -22,14 +22,13 @@ const Choose1 = ({subtitle,title,content,FeatureList,FeatureList2,btnname,btnurl
                                         <div className="checklist-wrapper style1 wow fadeInUp" data-wow-delay=".4s">
                                             <ul className="checklist style1">
                                             {FeatureList?.map((item, index) => (
-                                                <li key={index}><Image src="/assets/images/icon/checkmarkIcon.svg" alt="img" width={30} height={30}   /> {item}</li>
+                                                <li key={index} className="about-4-list"><Image src="/assets/images/icon/checkmarkIcon.svg" className="checkMarkIcon" alt="img" width={30} height={30}   /> <p className="about-4-desc">{item}</p></li>
+                                            ))}
+                                             {FeatureList2?.map((item, index) => (
+                                                <li key={index} className="about-4-list"><Image src="/assets/images/icon/checkmarkIcon.svg" className="checkMarkIcon" alt="img" width={30} height={30}   /><p className="about-4-desc">{item}</p> </li>
                                             ))}
                                             </ul>
-                                            <ul className="checklist style1">
-                                            {FeatureList2?.map((item, index) => (
-                                                <li key={index}><Image src="/assets/images/icon/checkmarkIcon.svg" alt="img" width={30} height={30}   />{item} </li>
-                                            ))}
-                                            </ul>
+
                                         </div>
                                         <Link className="theme-btn wow fadeInUp" data-wow-delay=".6s" href={btnurl}> {btnname}
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -58,9 +57,8 @@ const Choose1 = ({subtitle,title,content,FeatureList,FeatureList2,btnname,btnurl
                                             data-tilt data-tilt-max="15">
                                                 <Image src="/assets/images/advantage/advantageThumb1_2.png" alt="img" width={369} height={589}   />
                                                 </div>
-                                        <div className="shape1"><Image src="/assets/images/shape/advanceThumbShape1_1.png" alt="img" width={546} height={546}   /></div>
                                     </div>
-                                </div>
+                                </div>         
                             </div>
                         </div>
                     </div>

@@ -3,7 +3,7 @@
   --body: #fff;
   --black: #000;
   --white: #fff;
-  --theme: #7444fd;
+  --theme: #c4a86d;
   --theme2: #f9f3ef;
   --theme3: #faf8ff;
   --title: #282c32;
@@ -31,6 +31,7 @@ body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 ul {
@@ -2750,7 +2751,7 @@ input[type="radio"]:checked ~ label:before {
   align-items: center;
   gap: 10px;
   border-radius: 100px;
-  background: #7444fd26;
+  background: #c5a57226;
   color: var(--theme);
   font-family: Urbanist, sans-serif;
   font-size: 16px;
@@ -5787,7 +5788,7 @@ input.main-search-input::placeholder {
   content: "";
   width: 25px;
   height: 2px;
-  background-color: #7444fd;
+  background-color: #c5a572;
 }
 
 .footer-widgets-wrapper .single-footer-widget .widget-head h3:after {
@@ -6335,7 +6336,7 @@ input.main-search-input::placeholder {
 .intro-wrapper.style1 {
   position: relative;
   border-radius: 50px;
-  background: #7444fd0f;
+  background: #c5a5720f;
   margin-top: 40px;
 }
 
@@ -6405,7 +6406,7 @@ input.main-search-input::placeholder {
   align-items: center;
   gap: 10px;
   border-radius: 30px;
-  background: #7444fd26;
+  background: #c5a57226;
   backdrop-filter: blur(2px);
   color: var(--theme);
   font-family: Urbanist, sans-serif;
@@ -6539,7 +6540,7 @@ input.main-search-input::placeholder {
 
 .intro-wrapper.style2 {
   position: relative;
-  background: #7444fd0f;
+  background: #c5a5720f;
 }
 
 .intro-wrapper.style2 .intro-content {
@@ -6871,8 +6872,7 @@ input.main-search-input::placeholder {
 }
 
 .brandSliderOne {
-  padding: 30px 0 110px;
-  border-bottom: 1px solid var(--border);
+  padding: 30px 0;
 }
 
 .brandSliderOne .brand-logo {
@@ -6909,7 +6909,7 @@ input.main-search-input::placeholder {
   width: 465px;
   height: 350px;
   border-radius: 0 0 50px 50px;
-  background: #e8e5fd;
+  background: #f5f0e6;
 }
 
 @media (width <= 767px) {
@@ -7126,7 +7126,7 @@ input.main-search-input::placeholder {
   align-items: center;
   gap: 10px;
   border-radius: 100px;
-  background: #7444fd26;
+  background: #c5a57226;
   margin-bottom: 10px;
 }
 
@@ -7353,7 +7353,6 @@ input.main-search-input::placeholder {
 
 .advantage-wrapper.style1 {
   border-radius: 50px;
-  background: #faf8ff;
 }
 
 .advantage-wrapper.style1 .advantage-content .checklist-wrapper {
@@ -7851,7 +7850,7 @@ input.main-search-input::placeholder {
 .testimonial-wrapper.style1 {
   position: relative;
   border-radius: 50px;
-  background: #7444fd0f;
+  background: #c5a5720f;
 }
 
 .testimonial-wrapper.style1 .section-title {
@@ -7884,7 +7883,7 @@ input.main-search-input::placeholder {
   position: relative;
   padding: 506px 0 120px;
   border-radius: 50px;
-  background: #7444fd0f;
+  background: #c5a5720f;
 }
 
 .testimonial-wrapper.style2 .shape1 {
@@ -8493,7 +8492,7 @@ input.main-search-input::placeholder {
 
 .pricing-container-wrapper.style3 {
   position: relative;
-  background: #7444fd0f;
+  background: #c5a5720f;
 }
 
 .pricing-container-wrapper.style3 .shape1 {
@@ -9800,7 +9799,7 @@ input.main-search-input::placeholder {
 
 .service-container-wrapper.style3 {
   position: relative;
-  background: #7444fd0f;
+  background: #c5a5720f;
   padding-top: 300px;
 }
 
@@ -10273,7 +10272,7 @@ input.main-search-input::placeholder {
   text-align: center;
   padding: 24px;
   border-radius: 20px;
-  background: #f8f8ff;
+  background: linear-gradient(135deg, #f5f0e6 0%, #faf7f0 50%, #f5f0e6 100%) !important;
 }
 
 .team-card.style1 .team-thumb {
@@ -10328,7 +10327,7 @@ input.main-search-input::placeholder {
   height: 40px;
   line-height: 40px;
   text-align: center;
-  background-color: #e7f1ff;
+  background-color: #fff;
   color: var(--theme);
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -10526,7 +10525,7 @@ input.main-search-input::placeholder {
 
 .main-sidebar .single-sidebar-widget {
   padding: 40px 30px;
-  background-color: var(--bg-2);
+  background-color: #c5a5720f;
   margin-bottom: 30px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -10935,7 +10934,7 @@ input.main-search-input::placeholder {
 
 .contact-info-box.style1 {
   padding: 12px;
-  background-color: #faf8ff;
+  background-color: #c5a5720f;
   border-radius: 10px;
   transition: all .4s;
   -webkit-transition: all .4s;
@@ -10948,7 +10947,7 @@ input.main-search-input::placeholder {
   padding: 50px 30px 30px;
   text-align: center;
   border-radius: 10px;
-  background-color: #faf8ff;
+  background-color: #c5a5720f;
   border: 1px solid #e6e5e5;
   transition: all .4s;
   -webkit-transition: all .4s;
@@ -11752,7 +11751,7 @@ textarea.is-invalid {
   width: 100%;
   z-index: 101;
   left: 0;
-  top: 40px;
+  top: 0;
   transition: all .4s;
 }
 
@@ -12065,7 +12064,7 @@ textarea.is-invalid {
     width: 230px;
     background-color: #fff;
     position: absolute;
-    border-top: 2px solid #7444fd;
+    border-top: 2px solid #c5a572;
     -webkit-box-shadow: 0 1px 2px #0200b51a;
     box-shadow: 0 1px 2px #0200b51a;
     padding: 10px 0;

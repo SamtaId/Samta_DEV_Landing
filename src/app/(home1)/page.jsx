@@ -55,8 +55,9 @@ const page = () => {
         btnname="Lihat Portfolio"
         btnurl="/portfolio"
       />
+      <div className="content-section-color-transition"></div>
       <Feature1></Feature1>
-      <Counter1></Counter1>
+      {/* <Counter1></Counter1> */}
       <Faq1></Faq1>
       <Testimonial></Testimonial>
       <Feature2></Feature2>

@@ -49,6 +49,7 @@ const Feature1 = () => {
                     className="main-thumb wow bounceInUp"
                     data-wow-delay=".6s"
                   >
+                    {/* <div className="thumbShape1"></div> */}
                     <Image
                       src="/assets/images/wcu/wcuThumb1_1.png"
                       alt="img"
@@ -58,7 +59,8 @@ const Feature1 = () => {
                   </div>
                   <div className="shape">
                     <Image
-                      src="/assets/images/shape/wcuThumbShape1_1.png"
+                    className="choose-us-image"
+                      src="/assets/images/intro/introThumbShape1_2.png"
                       alt="img"
                       width={376}
                       height={377}
