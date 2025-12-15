@@ -1,5 +1,6 @@
 import BreadCumb from "@/app/Components/Common/BreadCumb";
 import Project1 from "@/app/Components/Project/Project1";
+import Project2 from "@/app/Components/Project/Project2";
 import React from "react";
 
 const page = () => {
@@ -9,7 +10,7 @@ const page = () => {
         bgimg="/assets/images/bg/breadcumgBg.png"
         Title="Galeri Proyek & Klien"
       ></BreadCumb>
-      <Project1></Project1>
+      <Project2></Project2>
     </div>
   );
 };

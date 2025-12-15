@@ -68,7 +68,7 @@ export default function Header3({ variant }) {
                 <div className="header-button ms-4">
                     <Link href="/contact" className="theme-btn">
                         <span>
-                            Get Started
+                            Hubungi Kami
                             <i className="bi bi-arrow-right"></i>
                         </span>
                     </Link>
