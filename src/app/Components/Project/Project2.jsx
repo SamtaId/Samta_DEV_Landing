@@ -24,7 +24,7 @@ const Project2 = () => {
         _embed: true,
       });
 
-      console.log('📦 Fetched projects:', res.data); // Debug
+      console.log("📦 Fetched projects:", res.data); // Debug
       setProjects(res.data);
     } catch (err) {
       console.error(err);
@@ -36,16 +36,16 @@ const Project2 = () => {
 
   // Loading Skeleton Component
   const ProjectSkeleton = () => (
-    <div className="col-xl-4 col-lg-6">
-      <div className="project-card-modern skeleton-card">
-        <div className="skeleton-image"></div>
-        <div className="project-overlay">
-          <div className="skeleton-title"></div>
-          <div className="skeleton-text"></div>
-          <div className="skeleton-text short"></div>
-          <div className="skeleton-button"></div>
-        </div>
-      </div>
+    <div className="col-xl-4 col-lg-6 d-flex justify-content-center">
+      <div
+        className="skeleton bg-samta-primary"
+        style={{
+          height: 280,
+          width: 380,
+          opacity: 0.1,
+          borderRadius: "10%",
+        }}
+      />
     </div>
   );
 
@@ -216,77 +216,6 @@ const Project2 = () => {
           transform: translateX(4px) translateY(0);
         }
 
-        /* Skeleton Loading Styles */
-        .skeleton-card {
-          background: #f0f0f0;
-          cursor: default;
-        }
-
-        .skeleton-card:hover {
-          transform: none;
-          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-        }
-
-        .skeleton-image {
-          position: absolute;
-          inset: 0;
-          background: linear-gradient(
-            90deg,
-            #e0e0e0 25%,
-            #f0f0f0 50%,
-            #e0e0e0 75%
-          );
-          background-size: 200% 100%;
-          animation: shimmer 1.5s infinite;
-        }
-
-        .skeleton-card .project-overlay {
-          opacity: 1;
-          background: linear-gradient(
-            to top,
-            rgba(240, 240, 240, 0.95) 0%,
-            rgba(240, 240, 240, 0.5) 50%,
-            rgba(240, 240, 240, 0) 100%
-          );
-        }
-
-        .skeleton-title {
-          width: 70%;
-          height: 24px;
-          background: #d0d0d0;
-          border-radius: 4px;
-          margin-bottom: 12px;
-          animation: shimmer 1.5s infinite;
-          background: linear-gradient(90deg, #d0d0d0 25%, #e0e0e0 50%, #d0d0d0 75%);
-          background-size: 200% 100%;
-        }
-
-        .skeleton-text {
-          width: 100%;
-          height: 14px;
-          background: #d0d0d0;
-          border-radius: 4px;
-          margin-bottom: 8px;
-          animation: shimmer 1.5s infinite;
-          background: linear-gradient(90deg, #d0d0d0 25%, #e0e0e0 50%, #d0d0d0 75%);
-          background-size: 200% 100%;
-        }
-
-        .skeleton-text.short {
-          width: 60%;
-        }
-
-        .skeleton-button {
-          width: 120px;
-          height: 40px;
-          background: #d0d0d0;
-          border-radius: 8px;
-          margin-top: 8px;
-          animation: shimmer 1.5s infinite;
-          background: linear-gradient(90deg, #d0d0d0 25%, #e0e0e0 50%, #d0d0d0 75%);
-          background-size: 200% 100%;
-        }
-
         @keyframes shimmer {
           0% {
             background-position: 200% 0;
@@ -401,10 +330,6 @@ const Project2 = () => {
           .project-description {
             -webkit-line-clamp: 2;
           }
-
-          .skeleton-card .project-overlay {
-            opacity: 1;
-          }
         }
       `}</style>
 
@@ -413,6 +338,9 @@ const Project2 = () => {
           <div className="row gy-4">
             {loading ? (
               <>
+                <ProjectSkeleton />
+                <ProjectSkeleton />
+                <ProjectSkeleton />
                 <ProjectSkeleton />
                 <ProjectSkeleton />
                 <ProjectSkeleton />
@@ -455,11 +383,11 @@ const Project2 = () => {
                   item._embedded?.["wp:featuredmedia"]?.[0]?.source_url;
 
                 // Log setiap project untuk debug
-                console.log('🔗 Project card:', {
+                console.log("🔗 Project card:", {
                   id: item.id,
                   title: item.title.rendered,
                   slug: item.slug,
-                  url: `/project/project-details/${item.slug}`
+                  url: `/project/project-details/${item.slug}`,
                 });
 
                 return (

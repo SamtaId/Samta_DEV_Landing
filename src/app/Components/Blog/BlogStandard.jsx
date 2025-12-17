@@ -226,22 +226,12 @@ const BlogStandard = () => {
       <div className="container">
         <div className="row g-4">
           <div className="col-12 col-lg-8">
-            <div className="blog-header mb-5">
-              <div
-                className="skeleton mb-2"
-                style={{ height: "24px", width: "120px" }}
-              ></div>
-              <div
-                className="skeleton mb-3"
-                style={{ height: "40px", width: "70%" }}
-              ></div>
-              <div
-                className="skeleton"
-                style={{ height: "60px", width: "100%" }}
-              ></div>
-            </div>
             {[1, 2, 3].map((item) => (
-              <div key={item} className="news-standard-items mb-5">
+              <div
+                key={item}
+                className="news-standard-items mb-5 bg-samta-primary"
+                style={{ opacity: "0.1", borderRadius: "2%" }}
+              >
                 <div
                   className="news-thumb skeleton"
                   style={{ height: "300px" }}
