@@ -8,6 +8,12 @@ const nextConfig = {
         port: '',
         pathname: '/samta/wp-content/uploads/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
 }

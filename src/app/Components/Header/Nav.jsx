@@ -11,22 +11,27 @@ export default function Nav({ setMobileToggle }) {
       </li>
       <li>
         <Link href="/about" onClick={() => setMobileToggle(false)}>
-          About Us
+          Tentang kami
+        </Link>
+      </li>
+      <li>
+        <Link href="/service" onClick={() => setMobileToggle(false)}>
+          Layanan
         </Link>
       </li>
       <li>
         <Link href="/team" onClick={() => setMobileToggle(false)}>
-          Our Team
+          Tim
         </Link>
       </li>
       <li>
         <Link href="/pricing" onClick={() => setMobileToggle(false)}>
-          Pricing
+          Harga
         </Link>
       </li>
       <li>
         <Link href="/project" onClick={() => setMobileToggle(false)}>
-          Project
+          Projek
         </Link>
       </li>
       <li>
@@ -36,7 +41,7 @@ export default function Nav({ setMobileToggle }) {
       </li>
       <li>
         <Link href="/contact" onClick={() => setMobileToggle(false)}>
-          Contact
+          Kontak
         </Link>
       </li>
     </ul>

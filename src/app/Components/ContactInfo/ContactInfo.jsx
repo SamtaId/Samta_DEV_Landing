@@ -31,11 +31,11 @@ const ContactInfo = () => {
                     <h4 className="title">Lokasi Kantor</h4>
                     <a
                       className="text"
-                      href="https://maps.google.com/?q=Medan,+North+Sumatra"
+                      href="https://www.google.com/maps/place/Digital+Marketing+Learning+Center/@3.582309,98.666191,17z/data=!3m1!4b1!4m6!3m5!1s0x3031315c79f23853:0x4df7f72127503a3!8m2!3d3.582309!4d98.6687659!16s%2Fg%2F11vww3w_vf?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoKLDEwMDc5MjA3M0gBUAM%3D"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Medan, Sumatera Utara, Indonesia
+                      Jl. Teuku Cik Ditiro No.70, Madras Hulu, Kec. Medan Polonia, Kota Medan, Sumatera Utara 20152
                     </a>
                   </div>
                 </div>
@@ -83,7 +83,7 @@ const ContactInfo = () => {
                       </svg>
                     </div>
                     <h4 className="title">
-                      <a href="mailto:hello@samta.dev">hello@samta.dev</a>
+                      <a href="mailto:hello@samta.dev">hi@samta.dev</a>
                     </h4>
                     <p className="text">
                       Email kami kapan saja untuk konsultasi gratis.
@@ -116,11 +116,11 @@ const ContactInfo = () => {
                     </div>
                     <h4 className="title">
                       <a
-                        href="https://wa.me/6281234567890"
+                        href="https://wa.me/628131122718"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        +62 812 3456 7890
+                        +62 813 1122 718
                       </a>
                     </h4>
                     <p className="text">
@@ -141,8 +141,7 @@ const ContactInfo = () => {
             <div className="row gy-5 gx-60">
               <div className="col-xl-6">
                 <div className="contact-map">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255281.19036104694!2d98.51495!3d3.5951956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30312550148e60a9%3A0xf5e75c1930b84a2!2sMedan%2C%20Kota%20Medan%2C%20Sumatera%20Utara!5e0!3m2!1sen!2sid!4v1702888888888!5m2!1sen!2sid"
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.0224884389354!2d98.66619097616226!3d3.5823089963918315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3031315c79f23853%3A0x4df7f72127503a3!2sDigital%20Marketing%20Learning%20Center!5e0!3m2!1sen!2sid!4v1765967892151!5m2!1sen!2sid"
                     loading="lazy"
                     style={{
                       border: 0,

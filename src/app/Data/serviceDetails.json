@@ -1,0 +1,266 @@
+{
+  "pengembangan-website": {
+    "id": 1,
+    "slug": "pengembangan-website",
+    "title": "Pengembangan Website",
+    "metaTitle": "Jasa Pengembangan Website Profesional - Custom & Responsif",
+    "metaDescription": "Layanan pengembangan website custom dengan teknologi modern, desain responsif, dan optimasi SEO. Solusi website profesional untuk bisnis Anda.",
+    "mainImage": "https://images.unsplash.com/photo-1547658719-da2b51169166?w=1410&h=646&fit=crop&q=80",
+    "tags": ["Web Development", "UI/UX Design", "Responsive", "SEO Friendly"],
+    "overview": {
+      "intro": "Kami menyediakan layanan pengembangan website profesional yang disesuaikan dengan kebutuhan bisnis Anda. Dengan menggunakan teknologi modern seperti Next.js, React, dan Node.js, kami memastikan website Anda memiliki performa tinggi, desain responsif, dan mudah dikelola.",
+      "description": "Setiap website yang kami kembangkan dirancang dengan pendekatan mobile-first, optimasi SEO, dan user experience yang maksimal. Kami juga menyediakan integrasi dengan berbagai layanan seperti payment gateway, CRM, dan sistem manajemen konten yang mudah digunakan."
+    },
+    "benefits": [
+      "Desain responsif yang optimal di semua perangkat",
+      "Performa tinggi dengan loading time cepat",
+      "SEO-friendly dan mudah diindeks Google",
+      "Keamanan tingkat enterprise dengan SSL dan firewall",
+      "Integrasi payment gateway dan sistem pembayaran",
+      "Dashboard admin yang user-friendly",
+      "Support dan maintenance berkala",
+      "Teknologi modern dan scalable"
+    ],
+    "skills": [
+      { "name": "Frontend Development", "percentage": 95 },
+      { "name": "Backend Development", "percentage": 90 }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=690&h=328&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=690&h=328&fit=crop&q=80"
+    ],
+    "detailDescription1": "Kami menggunakan teknologi terkini seperti Next.js untuk server-side rendering yang memberikan performa optimal dan SEO yang lebih baik. Setiap website dilengkapi dengan dashboard admin intuitif yang memudahkan Anda mengelola konten, produk, dan data pelanggan tanpa perlu keahlian teknis.",
+    "detailDescription2": "Tim developer kami berpengalaman dalam membangun berbagai jenis website mulai dari company profile, e-commerce, portal berita, hingga aplikasi web kompleks. Kami juga menyediakan layanan maintenance dan update rutin untuk memastikan website Anda selalu aman dan up-to-date."
+  },
+  "pengembangan-aplikasi-mobile": {
+    "id": 2,
+    "slug": "pengembangan-aplikasi-mobile",
+    "title": "Pengembangan Aplikasi Mobile",
+    "metaTitle": "Jasa Pembuatan Aplikasi Mobile Android & iOS - Flutter Expert",
+    "metaDescription": "Layanan pengembangan aplikasi mobile native dan cross-platform menggunakan Flutter. Aplikasi mobile profesional untuk Android dan iOS dengan satu codebase.",
+    "mainImage": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1410&h=646&fit=crop&q=80",
+    "tags": ["Flutter", "Android", "iOS", "Cross-Platform"],
+    "overview": {
+      "intro": "Kami mengembangkan aplikasi mobile native dan cross-platform menggunakan Flutter yang memberikan pengalaman pengguna yang seamless di semua perangkat Android dan iOS. Dengan satu codebase, kami dapat menghemat waktu dan biaya pengembangan tanpa mengorbankan kualitas.",
+      "description": "Aplikasi mobile yang kami kembangkan dilengkapi dengan fitur-fitur modern seperti push notification, offline mode, integrasi payment gateway, dan analytics. Kami juga memastikan aplikasi Anda memenuhi standar Google Play Store dan Apple App Store."
+    },
+    "benefits": [
+      "Satu codebase untuk Android dan iOS",
+      "Performa native dengan Flutter",
+      "UI/UX design yang modern dan intuitif",
+      "Push notification dan real-time updates",
+      "Integrasi API dan backend seamless",
+      "Offline mode dan local storage",
+      "Analytics dan tracking user behavior",
+      "Ready untuk publish ke Play Store & App Store"
+    ],
+    "skills": [
+      { "name": "Flutter Development", "percentage": 95 },
+      { "name": "Mobile UI/UX", "percentage": 92 }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=690&h=328&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?w=690&h=328&fit=crop&q=80"
+    ],
+    "detailDescription1": "Flutter memungkinkan kami mengembangkan aplikasi mobile dengan performa yang setara dengan native app namun dengan waktu pengembangan yang lebih cepat. Aplikasi Anda akan memiliki tampilan yang konsisten di semua platform dan dapat diintegrasikan dengan berbagai layanan backend seperti Firebase, REST API, atau GraphQL.",
+    "detailDescription2": "Kami menangani seluruh proses dari desain UI/UX, development, testing, hingga deployment ke app store. Tim kami juga menyediakan layanan post-launch support untuk memastikan aplikasi Anda berjalan lancar dan mendapatkan update fitur secara berkala sesuai feedback pengguna."
+  },
+  "manajemen-media-sosial": {
+    "id": 3,
+    "slug": "manajemen-media-sosial",
+    "title": "Manajemen Media Sosial",
+    "metaTitle": "Jasa Manajemen Media Sosial - Social Media Management Indonesia",
+    "metaDescription": "Layanan manajemen media sosial profesional untuk meningkatkan engagement dan brand awareness. Strategi konten, scheduling, dan analytics untuk bisnis Anda.",
+    "mainImage": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1410&h=646&fit=crop&q=80",
+    "tags": ["Social Media", "Content Strategy", "Engagement", "Analytics"],
+    "overview": {
+      "intro": "Kami membantu bisnis Anda membangun presence yang kuat di media sosial melalui strategi konten yang terencana, scheduling yang konsisten, dan engagement yang aktif dengan audiens target Anda.",
+      "description": "Layanan kami mencakup pembuatan konten kreatif, manajemen posting, community management, dan analisis performa untuk memastikan setiap kampanye media sosial Anda memberikan hasil maksimal."
+    },
+    "benefits": [
+      "Strategi konten yang disesuaikan dengan brand",
+      "Konten kreatif dan engaging",
+      "Scheduling dan posting konsisten",
+      "Community management dan response handling",
+      "Analytics dan monthly report",
+      "Influencer collaboration management",
+      "Paid ads campaign optimization",
+      "Brand monitoring dan reputation management"
+    ],
+    "skills": [
+      { "name": "Content Creation", "percentage": 93 },
+      { "name": "Social Media Strategy", "percentage": 90 }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=690&h=328&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1432888622747-4eb9a8f2c293?w=690&h=328&fit=crop&q=80"
+    ],
+    "detailDescription1": "Kami memahami bahwa setiap platform media sosial memiliki karakteristik dan audiens yang berbeda. Tim kami akan membuat strategi khusus untuk setiap platform seperti Instagram, Facebook, Twitter, LinkedIn, dan TikTok untuk memaksimalkan reach dan engagement.",
+    "detailDescription2": "Dengan tools analytics yang canggih, kami dapat memantau performa setiap posting dan kampanye secara real-time. Data ini kemudian kami gunakan untuk optimasi strategi konten dan meningkatkan ROI dari investasi media sosial Anda."
+  },
+  "digital-advertising": {
+    "id": 4,
+    "slug": "digital-advertising",
+    "title": "Digital Advertising",
+    "metaTitle": "Jasa Digital Advertising - Google Ads, Facebook Ads, Instagram Ads",
+    "metaDescription": "Layanan digital advertising profesional dengan ROI maksimal. Kampanye iklan di Google Ads, Facebook Ads, Instagram Ads yang terukur dan efektif.",
+    "mainImage": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1410&h=646&fit=crop&q=80",
+    "tags": ["Google Ads", "Facebook Ads", "PPC", "ROI Optimization"],
+    "overview": {
+      "intro": "Kampanye digital advertising yang data-driven untuk menjangkau target audiens yang tepat dengan budget yang efisien. Kami mengoptimalkan setiap rupiah yang Anda investasikan untuk menghasilkan conversion maksimal.",
+      "description": "Dengan pengalaman mengelola berbagai kampanye iklan digital, kami memahami cara kerja algoritma platform advertising dan strategi bidding yang efektif untuk berbagai industri."
+    },
+    "benefits": [
+      "Targeting audiens yang presisi",
+      "Budget optimization untuk ROI maksimal",
+      "A/B testing untuk creative dan copy",
+      "Conversion tracking dan analytics",
+      "Remarketing dan retargeting strategy",
+      "Landing page optimization",
+      "Monthly performance report",
+      "Dedicated account manager"
+    ],
+    "skills": [
+      { "name": "Google Ads Management", "percentage": 94 },
+      { "name": "Facebook Ads Strategy", "percentage": 91 }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1533750516457-a7f992034fec?w=690&h=328&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1557838923-2985c318be48?w=690&h=328&fit=crop&q=80"
+    ],
+    "detailDescription1": "Kami menjalankan kampanye iklan di berbagai platform seperti Google Ads (Search, Display, Shopping), Facebook Ads, Instagram Ads, LinkedIn Ads, dan TikTok Ads. Setiap kampanye dirancang dengan objective yang jelas dan KPI yang terukur.",
+    "detailDescription2": "Tim kami melakukan monitoring dan optimasi harian untuk memastikan kampanye Anda selalu perform dengan baik. Kami juga menyediakan laporan transparan yang menunjukkan spending, impressions, clicks, conversions, dan ROI secara detail."
+  },
+  "desain-kreatif-branding": {
+    "id": 5,
+    "slug": "desain-kreatif-branding",
+    "title": "Desain Kreatif & Branding",
+    "metaTitle": "Jasa Desain Kreatif & Branding - Logo, Brand Identity, Graphic Design",
+    "metaDescription": "Layanan desain kreatif dan branding profesional untuk membangun identitas brand yang kuat. Logo design, brand guideline, dan visual identity yang memorable.",
+    "mainImage": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=1410&h=646&fit=crop&q=80",
+    "tags": ["Logo Design", "Brand Identity", "Graphic Design", "Visual Identity"],
+    "overview": {
+      "intro": "Kami menciptakan identitas brand yang unik dan memorable untuk membedakan bisnis Anda dari kompetitor. Dari logo design hingga brand guideline lengkap, kami memastikan setiap elemen visual mencerminkan nilai dan kepribadian brand Anda.",
+      "description": "Proses desain kami dimulai dengan riset mendalam tentang bisnis, target market, dan kompetitor Anda. Kemudian kami mengembangkan konsep desain yang tidak hanya menarik secara visual, tetapi juga strategis dan efektif dalam menyampaikan pesan brand."
+    },
+    "benefits": [
+      "Logo design yang unique dan memorable",
+      "Brand guideline lengkap",
+      "Color palette dan typography system",
+      "Business card dan stationery design",
+      "Social media templates",
+      "Marketing collateral design",
+      "Packaging design",
+      "Brand consistency di semua touchpoint"
+    ],
+    "skills": [
+      { "name": "Brand Design", "percentage": 96 },
+      { "name": "Creative Direction", "percentage": 93 }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=690&h=328&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1558655146-d09347e92766?w=690&h=328&fit=crop&q=80"
+    ],
+    "detailDescription1": "Identitas brand yang kuat adalah aset berharga untuk bisnis Anda. Kami membantu Anda membangun brand yang tidak hanya terlihat profesional tetapi juga resonan dengan target audiens. Setiap elemen desain dirancang dengan pertimbangan psikologi warna, tipografi, dan komposisi visual.",
+    "detailDescription2": "Selain logo dan brand guideline, kami juga menyediakan berbagai aset desain seperti social media templates, presentation templates, hingga packaging design. Semua aset ini dirancang dengan konsistensi visual yang tinggi untuk membangun brand recognition yang kuat."
+  },
+  "manajemen-marketplace": {
+    "id": 6,
+    "slug": "manajemen-marketplace",
+    "title": "Manajemen Marketplace",
+    "metaTitle": "Jasa Manajemen Marketplace - Tokopedia, Shopee, Lazada, TikTok Shop",
+    "metaDescription": "Layanan manajemen marketplace profesional untuk optimasi toko online Anda di Tokopedia, Shopee, Lazada, dan TikTok Shop. Tingkatkan penjualan Anda.",
+    "mainImage": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1410&h=646&fit=crop&q=80",
+    "tags": ["E-commerce", "Marketplace", "Product Listing", "Sales Optimization"],
+    "overview": {
+      "intro": "Kami mengelola toko marketplace Anda di berbagai platform seperti Tokopedia, Shopee, Lazada, dan TikTok Shop untuk memaksimalkan penjualan dan visibilitas produk. Dari product listing hingga customer service, kami handle semuanya.",
+      "description": "Dengan pemahaman mendalam tentang algoritma dan best practices setiap marketplace, kami dapat mengoptimalkan listing produk, pricing strategy, dan campaign untuk meningkatkan conversion rate dan sales volume."
+    },
+    "benefits": [
+      "Product listing optimization dengan SEO",
+      "Inventory management multi-platform",
+      "Order processing dan fulfillment",
+      "Customer service dan chat handling",
+      "Campaign dan promo management",
+      "Analytics dan sales report",
+      "Rating dan review management",
+      "Ads campaign di marketplace"
+    ],
+    "skills": [
+      { "name": "Marketplace Optimization", "percentage": 92 },
+      { "name": "E-commerce Strategy", "percentage": 89 }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=690&h=328&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=690&h=328&fit=crop&q=80"
+    ],
+    "detailDescription1": "Setiap marketplace memiliki karakteristik dan algoritma yang berbeda. Tim kami yang berpengalaman memahami cara kerja setiap platform dan tahu strategi apa yang paling efektif untuk meningkatkan ranking produk dan mendapatkan badge seperti Power Merchant atau Preferred Seller.",
+    "detailDescription2": "Kami juga mengelola operasional harian seperti processing order, koordinasi dengan kurir, handling komplain, dan membalas pertanyaan customer dengan cepat. Dengan manajemen yang profesional, rating toko Anda akan meningkat dan customer loyalty akan terjaga."
+  },
+  "seo": {
+    "id": 7,
+    "slug": "seo",
+    "title": "SEO (Search Engine Optimization)",
+    "metaTitle": "Jasa SEO Profesional - Optimasi Website Ranking Google Indonesia",
+    "metaDescription": "Layanan SEO profesional untuk meningkatkan ranking website di Google. On-page SEO, off-page SEO, technical SEO, dan content strategy untuk traffic organik maksimal.",
+    "mainImage": "https://images.unsplash.com/photo-1571677208515-6701c2d8e8f3?w=1410&h=646&fit=crop&q=80",
+    "tags": ["SEO", "Google Ranking", "Organic Traffic", "Content Strategy"],
+    "overview": {
+      "intro": "Tingkatkan visibilitas website Anda di mesin pencari dengan strategi SEO yang komprehensif dan white-hat. Kami fokus pada hasil jangka panjang dengan meningkatkan ranking organik untuk keyword yang relevan dengan bisnis Anda.",
+      "description": "Layanan SEO kami mencakup audit SEO lengkap, keyword research, on-page optimization, technical SEO, link building, dan content strategy yang dirancang untuk meningkatkan authority domain dan mendatangkan traffic berkualitas."
+    },
+    "benefits": [
+      "Comprehensive SEO audit dan analisis",
+      "Keyword research dan competitor analysis",
+      "On-page SEO optimization",
+      "Technical SEO improvement",
+      "Quality backlink building",
+      "Content strategy dan creation",
+      "Local SEO optimization",
+      "Monthly ranking dan traffic report"
+    ],
+    "skills": [
+      { "name": "Technical SEO", "percentage": 94 },
+      { "name": "Content Optimization", "percentage": 91 }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?w=690&h=328&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?w=690&h=328&fit=crop&q=80"
+    ],
+    "detailDescription1": "SEO adalah investasi jangka panjang yang memberikan ROI berkelanjutan. Berbeda dengan iklan berbayar, traffic organik dari SEO akan terus mengalir meskipun Anda tidak mengeluarkan budget advertising. Kami menggunakan strategi white-hat SEO yang aman dan sesuai dengan guideline Google.",
+    "detailDescription2": "Proses SEO kami dimulai dengan audit menyeluruh untuk mengidentifikasi masalah teknis dan peluang optimasi. Kemudian kami melakukan keyword research untuk menemukan keyword dengan search volume tinggi namun kompetisi yang manageable. Setiap bulan Anda akan mendapatkan report transparan tentang ranking progress, traffic growth, dan conversion."
+  },
+  "solusi-saas": {
+    "id": 8,
+    "slug": "solusi-saas",
+    "title": "Solusi SaaS (Software as a Service)",
+    "metaTitle": "Jasa Pembuatan SaaS Platform - Cloud-Based Software Development",
+    "metaDescription": "Layanan pengembangan platform SaaS yang scalable dan secure. Custom SaaS solution untuk berbagai industri dengan subscription management dan multi-tenant architecture.",
+    "mainImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1410&h=646&fit=crop&q=80",
+    "tags": ["SaaS Platform", "Cloud Computing", "Multi-tenant", "Subscription"],
+    "overview": {
+      "intro": "Kami mengembangkan platform SaaS (Software as a Service) yang scalable, secure, dan user-friendly untuk berbagai kebutuhan bisnis. Dari konsep hingga deployment, kami membantu Anda mewujudkan ide SaaS menjadi produk yang revenue-generating.",
+      "description": "Platform SaaS yang kami kembangkan dilengkapi dengan fitur multi-tenant architecture, subscription management, payment gateway integration, dan analytics dashboard yang komprehensif. Semua dihosting di cloud infrastructure yang reliable dan scalable."
+    },
+    "benefits": [
+      "Multi-tenant architecture yang scalable",
+      "Subscription dan billing management",
+      "Role-based access control (RBAC)",
+      "API dan webhook integration",
+      "Real-time analytics dashboard",
+      "Automated backup dan disaster recovery",
+      "99.9% uptime guarantee",
+      "Dedicated support dan maintenance"
+    ],
+    "skills": [
+      { "name": "Cloud Architecture", "percentage": 93 },
+      { "name": "SaaS Development", "percentage": 90 }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=690&h=328&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=690&h=328&fit=crop&q=80"
+    ],
+    "detailDescription1": "Platform SaaS memungkinkan Anda untuk menawarkan software secara subscription-based dengan recurring revenue yang predictable. Kami menggunakan teknologi cloud terkini seperti AWS, Google Cloud, atau Azure untuk memastikan platform Anda dapat scale sesuai pertumbuhan user tanpa downtime.",
+    "detailDescription2": "Arsitektur multi-tenant yang kami implementasikan memungkinkan ribuan customer menggunakan satu instance aplikasi namun dengan data yang terisolasi dan aman. Kami juga mengintegrasikan payment gateway seperti Stripe atau Xendit untuk handling subscription payment secara otomatis, termasuk trial period, upgrade/downgrade plan, dan invoice generation."
+  }
+}

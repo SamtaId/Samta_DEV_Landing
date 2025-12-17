@@ -64,7 +64,7 @@ export default function Header3({ variant }) {
             <div className="cs_main_header_right">
               <div className="header-btn d-flex align-items-center">
 
-              <a onClick={() => setSearchToggle(!searchToggle)} className="search-trigger search-icon"><i className="bi bi-search"></i></a>
+              {/* <a onClick={() => setSearchToggle(!searchToggle)} className="search-trigger search-icon"><i className="bi bi-search"></i></a> */}
                 <div className="header-button ms-4">
                     <Link href="/contact" className="theme-btn">
                         <span>
@@ -81,8 +81,8 @@ export default function Header3({ variant }) {
       </div>
     </header>
     <div className="cs_site_header_spacing_140"></div>
-      <div className={`search-wrap ${searchToggle ? 'active' : ''}`} >
-      <div className="search-inner">
+      {/* <div className={`search-wrap ${searchToggle ? 'active' : ''}`} > */}
+      {/* <div className="search-inner">
           <i onClick={() => setSearchToggle(!searchToggle)} id="search-close" className="bi bi-x-lg search-close"></i>
           <div className="search-cell">
               <form method="get">
@@ -91,8 +91,8 @@ export default function Header3({ variant }) {
                   </div>
               </form>
           </div>
-      </div>
-      </div>
+      </div> */}
+      {/* </div> */}
 
     </div>
 

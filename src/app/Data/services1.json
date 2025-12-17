@@ -1,32 +1,50 @@
 [
   {
-    "icon": "/assets/images/icon/serviceIcon3_1.svg",
-    "title": "Software Features",
-    "desc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form"   
+    "id": 1,
+    "icon": "/assets/images/services/web-development.svg",
+    "title": "Pengembangan Website",
+    "desc": "Solusi website kustom yang disesuaikan dengan kebutuhan bisnis Anda menggunakan teknologi modern dan desain responsif."
   },
   {
-    "icon": "/assets/images/icon/serviceIcon3_2.svg",
-    "title": "Subscription Plans",
-    "desc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form"   
+    "id": 2,
+    "icon": "/assets/images/services/mobile-app.svg",
+    "title": "Pengembangan Aplikasi Mobile",
+    "desc": "Aplikasi mobile native dan cross-platform yang memberikan pengalaman pengguna yang seamless di semua perangkat."
   },
   {
-    "icon": "/assets/images/icon/serviceIcon3_3.svg",
-    "title": "Customization Option",
-    "desc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form"  
+    "id": 3,
+    "icon": "/assets/images/services/social-media.svg",
+    "title": "Manajemen Media Sosial",
+    "desc": "Kampanye media sosial strategis untuk meningkatkan kehadiran brand Anda dan berinteraksi dengan target audiens."
   },
   {
-    "icon": "/assets/images/icon/serviceIcon3_5.svg",
-    "title": "Choose a App",
-    "desc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form"  
+    "id": 4,
+    "icon": "/assets/images/services/digital-ads.svg",
+    "title": "Digital Advertising",
+    "desc": "Kampanye iklan berbasis data yang memaksimalkan ROI dan menjangkau pelanggan ideal Anda secara efektif."
   },
   {
-    "icon": "/assets/images/icon/serviceIcon3_5.svg",
-    "title": "Clean Modern Code",
-    "desc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form"
+    "id": 5,
+    "icon": "/assets/images/services/creative-design.svg",
+    "title": "Desain Kreatif & Branding",
+    "desc": "Identitas brand yang khas dan desain kreatif yang membuat bisnis Anda menonjol di pasar."
   },
   {
-    "icon": "/assets/images/icon/serviceIcon3_6.svg",
-    "title": "User Interactive",
-    "desc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered alteration in some form"   
-  }    
+    "id": 6,
+    "icon": "/assets/images/services/marketplace.svg",
+    "title": "Manajemen Marketplace",
+    "desc": "Solusi marketplace lengkap termasuk manajemen inventori, pesanan, dan platform multi-vendor."
+  },
+  {
+    "id": 7,
+    "icon": "/assets/images/services/seo.svg",
+    "title": "SEO",
+    "desc": "Strategi optimasi mesin pencari untuk meningkatkan visibilitas website dan pertumbuhan traffic organik."
+  },
+  {
+    "id": 8,
+    "icon": "/assets/images/services/saas.svg",
+    "title": "Solusi SaaS",
+    "desc": "Platform software-as-a-service yang scalable dirancang untuk efisiensi bisnis dan transformasi digital."
+  }
 ]

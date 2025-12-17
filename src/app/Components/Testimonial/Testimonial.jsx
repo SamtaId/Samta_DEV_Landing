@@ -50,7 +50,7 @@ const Testimonial = () => {
                             <div className="section-title text-center mxw-685 mx-auto">
                                 <SectionTitle
                                         SubTitle="Testimonial"
-                                        Title="What our clients say?"
+                                        Title="Apa kata klien kami?"
                                 ></SectionTitle>                                
                             </div>
                             <div className="slider-area testimonialSliderOne">
@@ -63,9 +63,9 @@ const Testimonial = () => {
                                         <div key={index} className="swiper-slide">
                                             <div className="testimonial-card style1">
                                                 <div className="testimonial-header">
-                                                    <div className="profile-thumb">
+                                                    {/* <div className="profile-thumb">
                                                     <Image src={item.img} alt="img" width={60} height={60}   />
-                                                    </div>
+                                                    </div> */}
                                                     <div className="content">
                                                         <h5>{item.title}</h5>
                                                         <p className="text">{item.subTitle}</p>
