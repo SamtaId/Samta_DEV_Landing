@@ -1,5 +1,5 @@
 import BreadCumb from "@/app/Components/Common/BreadCumb";
-import Pricing1 from "@/app/Components/Pricing/Pricing1";
+import Pricing5 from "@/app/Components/Pricing/Pricing5";
 import React from "react";
 
 const page = () => {
@@ -9,7 +9,7 @@ const page = () => {
         bgimg="/assets/images/bg/breadcumgBg.png"
         Title="Paket Harga"
       ></BreadCumb>
-      <Pricing1></Pricing1>
+      <Pricing5></Pricing5>
     </div>
   );
 };

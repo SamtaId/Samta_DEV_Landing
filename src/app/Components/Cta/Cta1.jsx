@@ -27,12 +27,6 @@ const Cta1 = ({subtitle,title,content,btnurl1,btnurl2,img}) => {
                                             <p className="section-desc text-white mxw-651 wow fadeInUp" data-wow-delay=".6s">
                                                 {content}</p>
                                         </div>
-                                        <Link className="playstore" href={btnurl1}>
-                                        <Image src="/assets/images/cta/ctaplayStore1_1.png" alt="img" width={190} height={55}   />
-                                        </Link>
-                                        <Link href={btnurl2}>
-                                        <Image src="/assets/images/cta/ctaAppleStore1_1.png" alt="img" width={190} height={55}   />
-                                        </Link>
                                     </div>
                                 </div>
                                 <div className="col-xl-4 order-1 order-xl-2">
