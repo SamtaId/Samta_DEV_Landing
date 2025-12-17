@@ -91,7 +91,7 @@ const Blog1 = () => {
       <section className="blog-section section-padding fix">
         <div className="container">
           <div className="text-center">
-            <div className="spinner-border text-primary" role="status">
+            <div className="spinner-border text-samta-primary" role="status">
               <span className="visually-hidden">Loading...</span>
             </div>
             <p className="mt-3">Loading blog posts...</p>
